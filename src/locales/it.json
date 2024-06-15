@@ -1,0 +1,87 @@
+{
+  "header": {
+    "home": "Home",
+    "aboutMe": "Su di me",
+    "resume": "Curriculum"
+  },
+  "home": {
+    "title": "Benvenuto sul mio sito!",
+    "subtitle": "Sono un Analista di Test Automatizzati.",
+    "paragraph": "Ciao, sono Rafael, ed è un piacere darti il benvenuto sul mio curriculum web. Sentiti libero di esplorare le mie competenze e esperienze. Se hai domande o hai bisogno di ulteriori informazioni, sono qui per aiutarti. Iniziamo!",
+    "accessNetworks": "Accedi alle mie reti"
+  },
+  "aboutMe": {
+    "title": "Su di me",
+    "description": [
+      "Sono Rafael, Analista di Test di Qualità Senior. Con oltre 10 anni di esperienza, sono specializzato in test funzionali, automazione e gestione progetti. Impegnato per l'eccellenza, credo che la qualità sia la base di ogni progetto di successo.",
+      "Il mio percorso professionale mi ha permesso di lavorare in una varietà di settori e progetti impegnativi. Questa diversità mi ha fornito una comprensione migliore dello sviluppo software e la capacità di adattarmi facilmente a scenari diversi.",
+      "Oltre al mio lavoro, sono un appassionato di tecnologia sempre in cerca di apprendimento continuo e condivisione delle conoscenze. Credo nella collaborazione come catalizzatore per il successo e sono impegnato a contribuire alla crescita della comunità dei test di qualità."
+    ]
+  },
+  "resume": {
+    "subtitle": "Analista di Test Automatizzati Senior",
+    "education": [
+      {
+        "title": "Educazione",
+        "description": [
+          "POST-Laurea: Ingegneria del Software con focus su Qualità e Test del Software - Facoltà Vincit Inizio DIC-2022, previsto termine DIC-2023.",
+          "LAUREA - Analisi e Sviluppo di Sistemi - Facoltà Anhanguera Inizio primo semestre 2019 periodo serale, previsto termine secondo semestre 2021"
+        ]
+      },
+      {
+        "title": "Corsi e Certificazioni",
+        "description": [
+          "Certificato CTFL - Certified Tester Foundation Level - BSTQB."
+        ]
+      },
+      {
+        "title": "Competenze",
+        "description": [
+          "Automazione E2E con Java/Python e Selenium.",
+          "Esperienza anche con Javascript/Typescript e Cypress.",
+          "Conoscenza approfondita di query SQL.",
+          "Automazione Backend (API) con Python e Behave (Cucumber in Python).",
+          "Test e automazioni con richieste REST, utilizzando Postman.",
+          "Scrittura e sviluppo di scenari di test utilizzando Gherkin (BDD), con Cucumber/Behave. Test di carico e performance con JMeter."
+        ]
+      }
+    ],
+    "experiencies": {
+      "title": "Esperienze",
+      "items": [
+        {
+          "title": "ANALISTA DI TEST AUTOMATIZZATI",
+          "company": "Capgemini - Lisbona - Portogallo",
+          "startDate": "GEN/2023",
+          "endDate": "ATTUALE",
+          "duration": null,
+          "description": "Lavoro per Capgemini presso l'Istituto di Informatica del Governo del Portogallo. Sono responsabile del settore degli impedimenti temporanei al lavoro, automazione dei test con Java e un Framework aziendale basato su Selenium. Il progetto è già in corso con molti test non funzionanti. Sono entrato per aggiornare i test esistenti e crearne di nuovi per le nuove consegne. Lavoriamo con Kanban. Sviluppo costantemente test con dati dinamici dal database Oracle, utilizzando query SQL. Scrittura di scenari con Gherkin, creando file di feature."
+        },
+        {
+          "title": "ANALISTA DI TEST AUTOMATIZZATI",
+          "company": "Dialog Tecnologia da Informação",
+          "startDate": "GEN/2022",
+          "endDate": "GEN/2023",
+          "duration": "1 anno e 1 mese",
+          "description": "Sono un consulente per avviare un progetto di automazione in azienda. Prodotto di comunicazione interna per HR, con messaggi tra collaboratori, gestione, comunicazioni, ecc. Ho iniziato un progetto di automazione da zero con Cypress/JavaScript, dalla fase di implementazione del progetto, architettura dell'automazione, configurazione dei repository, ecc. Responsabile di tutto il processo di sviluppo dei test, dalla scrittura degli scenari (Gherkin - BDD), documentazione e automazione di questi scenari. Se vengono trovati bug, vengono segnalati su Monday. Questa automazione è iniziata su prodotti già completati, viene implementata gradualmente in ciascuna sprint, testando nuovi prodotti/caratteristiche. Formazione di altri membri del team per l'implementazione di nuovi scenari e test nel progetto di automazione. Circa 450.000 utenti dell'app/sistema."
+        },
+        {
+          "title": "ANALISTA DI TEST AUTOMATIZZATI",
+          "company": "Assertiva Tecnologia da Informação",
+          "startDate": "MAR/2020",
+          "endDate": "GEN/2022",
+          "duration": "1 anno e 10 mesi",
+          "description": "Responsabile del team sulla qualità del prodotto sviluppato. Garantire una copertura massima dei test funzionali e non funzionali, manuali e automatizzati, scrivendo casi di test secondo il processo BDD, test di performance, automazione di Backend utilizzando Python e Behave e frontend utilizzando Ruby e Capybara/Cucumber e Python/Behave con Selenium. Test manuali di API Rest utilizzando Postman, facendo richieste agli endpoint (forniti dai devs tramite Swagger), documentazione dei test e segnalazione di eventuali bug su strumenti come Trello e/o Jira. Attualmente (da DIC/20) sono considerato uno dei leader dei QA, responsabile della revisione del codice degli altri QA, approvando o suggerendo miglioramenti prima del merge nel progetto Master. Responsabile anche della formazione dei nuovi QA che sono entrati nell'azienda con minore esperienza e familiarità con l'automazione."
+        },
+        {
+          "title": "ANALISTA DI TEST AUTOMATIZZATI",
+          "company": "Cflex Computação Flexível e Rail MP",
+          "startDate": "SET/2015",
+          "endDate": "FEB/2020",
+          "duration": "4 anni e 5 mesi",
+          "description": "Eseguire test di funzionalità del software sviluppato dall'azienda. Creare, scrivere ed eseguire casi di test. Segnalare bug trovati nel sistema Atlassian JIRA. Revisionare e dare il mio parere su storie di specifica tecniche (User Stories) scritte dall'Analista di Business. Creare ed eseguire casi di test che possono generare problemi/bug nel sistema. Elaborare documentazione sui processi di test e/o software sviluppato dall'azienda."
+        }
+      ]
+    }
+  }
+}

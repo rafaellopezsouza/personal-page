@@ -3,18 +3,24 @@ import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 import { routes } from "./routes"
+import { LanguageProvider } from './context/LanguageContext';
+
+
 function App() {
+
   return (
     <Router>
       <div className="page-container">
-        <Header />
-        <Routes>
-          <Route path={routes.home} element={<Home />} />
-          <Route path={routes.about} element={<About />} />
-          <Route path={routes.contact} element={<Contact />} />
-        </Routes>
+        <LanguageProvider>
+          <Header />
+          <Routes>
+            <Route path={routes.home} element={<Home />} />
+            <Route path={routes.about} element={<About />} />
+            <Route path={routes.resume} element={<Resume />} />
+          </Routes>
+        </LanguageProvider>
         <Footer />
       </div>
     </Router>
