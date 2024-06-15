@@ -1,0 +1,24 @@
+.cabecalho {
+
+    padding: 3% 0% 0% 0%;
+    display: flex;
+    justify-content:center;
+  
+    gap: 82px;
+
+}
+
+.cabecalho_menu {
+
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+}
+
+.cabecalho_menu_home {
+    color: var(--cor-terciaria);
+    font-family: var(--font-secundaria);
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+}
