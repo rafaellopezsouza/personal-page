@@ -1,0 +1,215 @@
+.about-me {
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    font-family: var(--font-secundaria);
+    padding: 3% 15% 0 15%;
+}
+
+.list {
+    padding: 0.1rem;
+}
+
+.list::marker {
+    color: var(--cor-terciaria);
+    font-size: 1.5rem;
+}
+
+.contacts {
+    display: flex;
+    color: var(--cor-secundaria);
+    font-size: 1.3rem;
+    font-family: var(--font-secundaria);
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    padding: 3% 15% 0 15%;
+    margin: 12px;
+    list-style: none;
+}
+
+.contacts li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contacts-link {
+    text-decoration: none;
+    color: var(--cor-terciaria);
+    line-height: 2;
+    font-size: 1rem;
+}
+
+.contacts .icon {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+.experience {
+    line-height: 1.5;
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    font-family: var(--font-secundaria);
+    padding: 3% 15% 0 15%;
+}
+
+.experience h3 {
+    color: var(--cor-secundaria);
+    margin-top: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.experience h5 {
+    color: var(--cor-terciaria);
+    margin-top: 10px;
+    font-size: 1rem;
+    margin-bottom: 5px;
+    line-height: 1.5;
+}
+
+.duration {
+    color: var(--cor-terciaria);
+    font-size: 1rem;
+}
+
+.startEndDuration {
+    font-size: 1rem;
+}
+
+.home-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    width: 50%;
+    text-align: center;
+    border-radius: 8px;
+    border: 2px solid var(--cor-terciaria);
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 21.5px 0;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--font-secundaria);
+}
+
+.home-button:hover {
+    background-color: var(--cor-botao-hover);
+    transform: scale(1.05);
+    transition-duration: 0s;
+}
+
+.home-buttons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+}
+
+.home-subtitle {
+    font-family: var(--font-primaria);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.image-photo {
+    border-radius: 50%;
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: 15%;
+}
+
+.knowledge {
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    font-family: var(--font-secundaria);
+    padding: 3% 15% 2% 15%;
+    line-height: 1.5;
+}
+
+.name {
+    font-size: 1.7rem;
+    font-family: var(--font-primaria);
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: 5%;
+}
+
+.presentation {
+    margin: 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 82px;
+}
+
+.presentation-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.presentation-emphasis {
+    color: var(--cor-terciaria);
+}
+
+.presentation-paragraph {
+    color: var(--cor-secundaria);
+    font-size: 1.1rem;
+    font-family: var(--font-secundaria);
+    font-weight: 300;
+}
+
+.presentation-title {
+    font-size: 2.25rem;
+    font-family: var(--font-primaria);
+}
+
+.resume-subtitle {
+    font-size: 1.4rem;
+    color: var(--cor-secundaria);
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: var(--font-secundaria);
+}
+
+/* Estilos para telas médias (768px a 1447px) */
+@media (max-width: 1447px) {
+    .presentation {
+        margin: 5% 10%;
+    }
+
+    .home-title {
+        font-size: 1.8rem;
+    }
+
+    .home-buttons {
+        width: 70%;
+    }
+
+}
+
+@media(max-width: 425px) {
+
+    .presentation {
+        padding: 10% 20%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .presentation-content {
+        width: auto;
+    }
+
+    .home-buttons {
+        width: auto;
+    }
+
+}

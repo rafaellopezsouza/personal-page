@@ -1,30 +1,32 @@
+import { useLanguage } from '../context/LanguageContext';
+import commun from "../data/commun.json"
+import "./style.css";
 
 export default function Home() {
+    const { translations } = useLanguage();
     return (
-        <main className="apresentacao_titulo">
-            <section className="apresentacao_conteudo">
-                <h1 className="apresentacao_destaque">
-                    Bem vindo a minha página de currículo web,
-                    <strong className="titulo_destaque">Sou Analista de Teste Automatizado.</strong>
+        <main className="presentation">
+            <section className="presentation-content">
+                <h1 className="presentation-title">
+                    {translations.home.title}
+                    <strong className="presentation-emphasis"> {translations.home.subtitle}</strong>
                 </h1>
-                <p className="apresentacao_paragrafo">
-                    Olá, sou Rafael, e é um prazer recebê-lo no meu currículo web.
-                    Sinta-se à vontade para explorar minhas habilidades e experiências. Se
-                    você tiver alguma pergunta ou precisar de mais informações, estou à
-                    disposição para ajudar. Vamos começar!
+                <p className="presentation-paragraph">
+                    {translations.home.paragraph}
                 </p>
-                <div className="apresentacao_botoes">
-                    <h2 className="subtitulo">Acesse minhas redes</h2>
-                    <a className="apresentacao_botao_input" href="https://www.linkedin.com/in/rafael-souza-300449124" target="_blank">Linkedin <img src="src/img/linkedin.png" alt="icone LinkedIn" />
+                <div className="home-buttons">
+                    <h2 className="home-subtitle">{translations.home.accessNetworks}</h2>
+                    <a className="home-button" href={commun.linkedinLink} target="_blank">
+                        Linkedin <img src="src/img/linkedin.png" alt="icone LinkedIn" />
                     </a>
-                    <a className="apresentacao_botao_input" href="https://github.com/rafaellopezsouza" target="_blank">
+                    <a className="home-button" href={commun.githubLink} target="_blank">
                         Github <img src="src/img/github.png" alt="icone Github" />
                     </a>
                 </div>
             </section>
             <div>
-                <img className="imagem_com_borda" src="src/img/foto-rafael.jpg" alt="Minha Foto" />
+                <img className="image-photo" src="src/img/photo-profile.jpg" alt="Minha Foto" />
             </div>
         </main>
-    )
+    );
 }
