@@ -45,16 +45,18 @@ export default function Resume() {
                 ))}
                 <section className="experience">
                     <div><h2>Experiências</h2></div>
-                    {translations.resume.experiencies.items.map((item: ExperienciesProps, index: number) => (
-                        <div key={index}>
-                            <h3>{item.title}</h3>
-                            <span className="startEndDuration">De {item.startDate} até {item.endDate}</span>
-                            {item.duration ? <span className="duration">( {item.duration} )</span> : ""}
-                            <h5>{item.company}</h5>
-                            <p>{item.description}</p>
-                            <br />
-                        </div>
-                    ))}
+                    <ul>
+                        {translations.resume.experiencies.items.map((item: ExperienciesProps, index: number) => (
+                            <li className="list" key={index}>
+                                <h3>{item.title}</h3>
+                                <span className="startEndDuration">De {item.startDate} até {item.endDate}</span>
+                                {item.duration ? <span className="duration">( {item.duration} )</span> : ""}
+                                <h5>{item.company}</h5>
+                                <p>{item.description}</p>
+                                <br />
+                            </li>
+                        ))}
+                    </ul>
                 </section>
             </div>
         </main>
