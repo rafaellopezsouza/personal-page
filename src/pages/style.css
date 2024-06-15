@@ -122,6 +122,12 @@
     padding: 15%;
 }
 
+.icon-button {
+    color: var(--cor-terciaria);
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
 .knowledge {
     color: var(--cor-secundaria);
     font-size: 1.1rem;

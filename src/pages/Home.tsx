@@ -1,5 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import commun from "../data/commun.json"
+import photo from "../img/photo-profile.jpg";
 import "./style.css";
 
 export default function Home() {
@@ -17,15 +19,15 @@ export default function Home() {
                 <div className="home-buttons">
                     <h2 className="home-subtitle">{translations.home.accessNetworks}</h2>
                     <a className="home-button" href={commun.linkedinLink} target="_blank">
-                        Linkedin <img src="src/img/linkedin.png" alt="icone LinkedIn" />
+                        Linkedin <FaLinkedinIn className="icon-button" />
                     </a>
                     <a className="home-button" href={commun.githubLink} target="_blank">
-                        Github <img src="src/img/github.png" alt="icone Github" />
+                        Github <FaGithub className="icon-button" />
                     </a>
                 </div>
             </section>
             <div>
-                <img className="image-photo" src="src/img/photo-profile.jpg" alt="Minha Foto" />
+                <img className="image-photo" src={photo} alt="Minha Foto" />
             </div>
         </main>
     );

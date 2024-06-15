@@ -1,4 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
+import photo from "../img/photo-profile.jpg";
 import "./style.css";
 
 export default function About() {
@@ -15,7 +16,7 @@ export default function About() {
                 ))}
             </section>
             <div>
-                <img className="image-photo" src="src/img/photo-profile.jpg" alt="Minha Foto" />
+                <img className="image-photo" src={photo} alt="Minha Foto" />
             </div>
         </main>
     )
