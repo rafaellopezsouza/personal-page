@@ -1,5 +1,4 @@
 // DownloadResume.tsx
-import React from 'react';
 import { FaDownload } from 'react-icons/fa';
 import filePath from '../../assets/resume/resume.pdf';
 import './style.css';
