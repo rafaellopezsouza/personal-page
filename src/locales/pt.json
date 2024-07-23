@@ -24,8 +24,8 @@
       {
         "title": "Escolaridade",
         "description": [
-          "PÓS-GRADUAÇÃO: Engenharia de Software com ênfase em Qualidade e Testes de Software - Faculdade Vincit Início DEZ-2022, previsão de conclusão DEZ-2023.",
-          "SUPERIOR COMPLETO - Análise e Desenvolvimento de Sistemas - Faculdade Anhanguera Início no primeiro semestre de 2019 período noturno, previsão de conclusão segundo semestre de 2021"
+          "PÓS-GRADUAÇÃO: Engenharia de Software com ênfase em Qualidade e Testes de Software",
+          "SUPERIOR COMPLETO - Análise e Desenvolvimento de Sistemas"
         ]
       },
       {
@@ -33,19 +33,42 @@
         "description": [
           "Certificado CTFL - Certified Tester Foundation Level - BSTQB."
         ]
-      },
-      {
-        "title": "Conhecimentos",
-        "description": [
-          "Automação E2E com Java/Python com Selenium.",
-          "Também já atuei com Javascript/Typescript com Cypress.",
-          "Conhecimentos sólidos em Queries SQL.",
-          "Automação de Backend (API) com python e Behave (Cucumber do Python).",
-          "Testes e automações com requisições REST, com Postman.",
-          "Escrita e desenvolvimento de cenários de testes usando Gherkin (BDD), com Cucumber/Behave. Testes de carga e Performance com JMeter."
-        ]
       }
     ],
+    "skills": {
+      "title": "Conhecimentos",
+      "skills": {
+        "languages": {
+          "title": "Linguagens",
+          "items": {
+            "Java": "3 anos",
+            "Typescript": "5 anos",
+            "Python": "2 anos"
+          }
+        },
+        "frameworks": {
+          "title": "Frameworks",
+          "items": {
+            "Cypress": "3 anos",
+            "Selenium": "5 anos",
+            "Cucumber": "9 anos"
+          }
+        },
+        "tools": {
+          "title": "Ferramentas",
+          "items": {
+            "Postman": "9 anos",
+            "JMeter": "1 ano"
+          }
+        },
+        "agile": {
+          "title": "Metodologia Ágil",
+          "items": {
+            "Scrum/Kanban": "9 anos"
+          }
+        }
+      }
+    },
     "experiencies": {
       "title": "Experiências",
       "items": [
@@ -83,5 +106,8 @@
         }
       ]
     }
+  },
+  "footer": {
+    "develop": "Desenvolvido por"
   }
 }

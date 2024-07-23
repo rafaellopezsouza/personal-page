@@ -20,8 +20,8 @@ function App() {
             <Route path={routes.about} element={<About />} />
             <Route path={routes.resume} element={<Resume />} />
           </Routes>
+          <Footer />
         </LanguageProvider>
-        <Footer />
       </div>
     </Router>
   );
