@@ -21,7 +21,7 @@ export function LanguageDropdown() {
                 {language === 'pt' && <img src="https://img.icons8.com/fluency/48/brazil-circular.png" alt="Português" />}
                 {language === 'en' && <img src="https://img.icons8.com/fluency/48/great-britain-circular.png" alt="English" />}
                 {language === 'it' && <img src="https://img.icons8.com/fluency/48/italy-circular.png" alt="Italiano" />}
-                {language === 'es' && <img src="https://img.icons8.com/fluency/48/spain-circular.png" alt="Spañol" />}
+                {/* {language === 'es' && <img src="https://img.icons8.com/fluency/48/spain-circular.png" alt="Spañol" />} */}
             </button>
             {isOpen && (
                 <ul className="dropdown-menu">
@@ -37,10 +37,10 @@ export function LanguageDropdown() {
                         <img src="https://img.icons8.com/fluency/48/italy-circular.png" alt="Italiano" />
                         <span>Italiano</span>
                     </li>
-                    <li onClick={() => handleChangeLanguage('es')}>
+                    {/* <li onClick={() => handleChangeLanguage('es')}>
                         <img src="https://img.icons8.com/fluency/48/spain-circular.png" alt="Spañol" />
                         <span>Spañol</span>
-                    </li>
+                    </li> */}
                 </ul>
             )}
         </div>

@@ -3,6 +3,7 @@ import data from "../data/commun.json"
 import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 import "./style.css";
+import { Card } from "../components/Card";
 
 interface EducationProps {
     title: string;
@@ -14,7 +15,7 @@ interface ExperienciesProps {
     company: string;
     startDate: string;
     endDate: string;
-    duration: null | string;
+    duration: string | null;
     description: string;
 }
 
@@ -43,18 +44,29 @@ export default function Resume() {
                         ))}
                     </section>
                 ))}
+                <section className="skills">
+                    <h2>{translations.resume.skills.title}</h2>
+                    <div className="skills-cards">
+                        <Card title={translations.resume.skills.skills.languages.title} items={translations.resume.skills.skills.languages.items} />
+                        <Card title={translations.resume.skills.skills.frameworks.title} items={translations.resume.skills.skills.frameworks.items} />
+                        <Card title={translations.resume.skills.skills.tools.title} items={translations.resume.skills.skills.tools.items} />
+                        <Card title={translations.resume.skills.skills.agile.title} items={translations.resume.skills.skills.agile.items} />
+                    </div>
+                </section>
                 <section className="experience">
-                    <div><h2>Experiências</h2></div>
-                    {translations.resume.experiencies.items.map((item: ExperienciesProps, index: number) => (
-                        <div key={index}>
-                            <h3>{item.title}</h3>
-                            <span className="startEndDuration">De {item.startDate} até {item.endDate}</span>
-                            {item.duration ? <span className="duration">( {item.duration} )</span> : ""}
-                            <h5>{item.company}</h5>
-                            <p>{item.description}</p>
-                            <br />
-                        </div>
-                    ))}
+                    <h2>{translations.resume.experiencies.title}</h2>
+                    <ul>
+                        {translations.resume.experiencies.items.map((item: ExperienciesProps, index: number) => (
+                            <li className="list" key={index}>
+                                <h3>{item.title}</h3>
+                                <span className="startEndDuration">De {item.startDate} até {item.endDate}</span>
+                                {item.duration ? <span className="duration">( {item.duration} )</span> : ""}
+                                <h5>{item.company}</h5>
+                                <p>{item.description}</p>
+                                <br />
+                            </li>
+                        ))}
+                    </ul>
                 </section>
             </div>
         </main>

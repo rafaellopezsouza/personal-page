@@ -1,87 +1,114 @@
 {
     "header": {
-        "home": "Inicio",
-        "aboutMe": "Sobre mí",
-        "resume": "Currículum"
+      "home": "Inicio",
+      "aboutMe": "Sobre mí",
+      "resume": "Currículum"
     },
     "home": {
-        "title": "¡Bienvenido a mi sitio web!",
-        "subtitle": "Soy Analista de Pruebas Automatizadas Senior.",
-        "paragraph": "Hola, soy Rafael, y es un placer darle la bienvenida a mi currículum web. Siéntase libre de explorar mis habilidades y experiencias. Si tiene alguna pregunta o necesita más información, estoy aquí para ayudarle. ¡Comencemos!",
-        "accessNetworks": "Acceda a mis redes"
+      "title": "¡Bienvenido a mi sitio web!",
+      "subtitle": "Soy Analista de Pruebas Automatizadas.",
+      "paragraph": "Hola, soy Rafael, y es un placer darte la bienvenida a mi currículum en línea. Siéntete libre de explorar mis habilidades y experiencias. Si tienes alguna pregunta o necesitas más información, estoy disponible para ayudarte. ¡Comencemos!",
+      "accessNetworks": "Accede a mis redes"
     },
     "aboutMe": {
-        "title": "Sobre mí",
-        "description": [
-            "Soy Rafael, Analista de Pruebas de Calidad Senior. Con más de 10 años de experiencia, me especializo en pruebas funcionales, automatización y gestión de proyectos. Comprometido con la excelencia, creo que la calidad es la base de cualquier proyecto exitoso.",
-            "Mi trayectoria profesional me ha permitido trabajar en diversos sectores y proyectos desafiantes. Esta diversidad me ha proporcionado una mejor comprensión del desarrollo de software y la capacidad de adaptarme a diferentes escenarios con facilidad.",
-            "Además de mi trabajo, soy un entusiasta de la tecnología que siempre está en busca de aprendizaje continuo y compartiendo conocimientos. Creo en la colaboración como catalizador del éxito y estoy comprometido a contribuir al crecimiento de la comunidad de pruebas de calidad."
-        ]
+      "title": "Sobre mí",
+      "description": [
+        "Soy Rafael, Analista de Calidad Senior. Con más de 10 años de experiencia, me especializo en pruebas funcionales, automatización y gestión de proyectos. Comprometido con la excelencia, creo que la calidad es la base de cualquier proyecto exitoso.",
+        "Mi trayectoria profesional me ha permitido trabajar en una variedad de sectores y proyectos desafiantes. Esta diversidad me ha proporcionado una mejor comprensión del desarrollo de software y la capacidad de adaptarme a diferentes escenarios con facilidad.",
+        "Además de mi trabajo, soy un entusiasta de la tecnología que siempre busca aprender continuamente y compartir conocimientos. Creo en la colaboración como un catalizador para el éxito, y estoy comprometido a contribuir al crecimiento de la comunidad de pruebas de calidad."
+      ]
     },
     "resume": {
-        "subtitle": "Analista de Pruebas Automatizadas Senior",
-        "education": [
-            {
-                "title": "Educación",
-                "description": [
-                    "POSTGRADO: Ingeniería de Software con énfasis en Calidad y Pruebas de Software - Facultad Vincit Inicio DIC-2022, fecha estimada de finalización DIC-2023.",
-                    "GRADO EN ANÁLISIS Y DESARROLLO DE SISTEMAS - Facultad Anhanguera Comienzo en el primer semestre de 2019, turno nocturno, fecha estimada de finalización en el segundo semestre de 2021."
-                ]
-            },
-            {
-                "title": "Cursos y Certificados",
-                "description": [
-                    "Certificado CTFL - Nivel de Fundación del Tester Certificado - BSTQB."
-                ]
-            },
-            {
-                "title": "Conocimientos",
-                "description": [
-                    "Automatización E2E con Java/Python con Selenium.",
-                    "También he trabajado con Javascript/Typescript con Cypress.",
-                    "Conocimientos sólidos en consultas SQL.",
-                    "Automatización Backend (API) con Python y Behave (Cucumber de Python).",
-                    "Pruebas y automatización con solicitudes REST, con Postman.",
-                    "Escritura y desarrollo de escenarios de pruebas utilizando Gherkin (BDD), con Cucumber/Behave. Pruebas de carga y rendimiento con JMeter."
-                ]
-            }
-        ],
-        "experiencies": {
-            "title": "Experiencias",
-            "items": [
-                {
-                    "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
-                    "company": "Capgemini - Lisboa - Portugal",
-                    "startDate": "ENE/2023",
-                    "endDate": "ACTUAL",
-                    "duration": null,
-                    "description": "Trabajo para Capgemini asignado en el Instituto de Informática del Gobierno de Portugal. Trabajo en el sector de Impedimentos temporales para el trabajo, realizando automatización de pruebas con Java y un marco de trabajo propio de la empresa basado en Selenium. Este proyecto ya está en curso, ya que con muchas pruebas no funcionando. Mi entrada fue para actualizar las pruebas existentes y crear nuevas para las nuevas entregas. Trabajamos con Kanban. Siempre desarrollando pruebas con datos dinámicos de la base de datos Oracle, con consultas SQL. Escritura de escenarios con Gherkin, creando archivos de características."
-                },
-                {
-                    "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
-                    "company": "Dialog Tecnología de la Información",
-                    "startDate": "ENE/2022",
-                    "endDate": "ENE/2023",
-                    "duration": "1 año y 1 mes",
-                    "description": "Soy PJ para iniciar un proyecto de automatización en la empresa. Producto de comunicación interna de RRHH, con publicaciones entre los empleados, gestión, comunicados, etc. Comencé un proyecto desde cero de automatización con Cypress/Javascript, desde la implementación del proyecto, la arquitectura de la automatización, la configuración de los repositorios, etc. Responsable de todo el proceso de desarrollo de pruebas, desde la escritura de escenarios (Gherkin - BDD), la documentación y la automatización de estos escenarios. Si encuentro errores, los informo en Monday. Esta automatización se inició en productos ya finalizados, implementándose gradualmente en cada sprint, las pruebas de productos/características nuevas. Capacitación de otros miembros del equipo para la implementación de nuevos escenarios y pruebas en el proyecto de automatización. Hay alrededor de 450 mil usuarios de la aplicación/sistema."
-                },
-                {
-                    "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
-                    "company": "Assertiva Tecnología de la Información",
-                    "startDate": "MAR/2020",
-                    "endDate": "ENE/2022",
-                    "duration": "1 año y 10 meses",
-                    "description": "Responsable del equipo sobre la calidad del producto desarrollado. Garantizando la máxima cobertura de pruebas funcionales y no funcionales, manuales y automatizadas, escribiendo los casos de prueba siguiendo el proceso de BDD, pruebas de rendimiento, automatización de Backend utilizando Python y Behave y frontend utilizando Ruby y Capybara/Cucumber y Python/Behave con Selenium. Pruebas manuales de API Rest utilizando Postman, realizando las solicitudes en los endpoints (proporcionados por los desarrolladores a través de Swagger), documentación de las pruebas e informe de posibles errores en herramientas como Trello y/o Jira. Actualmente (a partir de DIC/20), soy considerado uno de los líderes de QAs, responsable de la revisión de código de otros QAs, aprobando o señalando mejoras antes de realizar el merge al proyecto Master. También soy responsable de capacitar a los nuevos QAs que ingresan a la empresa con menor senioridad y familiaridad con la automatización."
-                },
-                {
-                    "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
-                    "company": "Cflex Computación Flexible y Rail MP",
-                    "startDate": "SET/2015",
-                    "endDate": "FEB/2020",
-                    "duration": "4 años y 5 meses",
-                    "description": "Realizar pruebas de funcionalidades del software desarrollado por la empresa. Crear, escribir y ejecutar casos de prueba. Informar errores encontrados en el sistema Atlassian JIRA. Revisar y opinar sobre historias de especificación técnicas (User Stories) escritas por el Analista de Negocios. Elaborar y ejecutar casos de prueba que pueden generar fallas/errores en el sistema. Elaboración de documentación de los procesos de pruebas y/o software desarrollado por la empresa."
-                }
-            ]
+      "subtitle": "Analista de Pruebas Automatizadas Senior",
+      "education": [
+        {
+          "title": "Educación",
+          "description": [
+            "POSTGRADO: Ingeniería de Software con énfasis en Calidad y Pruebas de Software.",
+            "LICENCIATURA - Análisis y Desarrollo de Sistemas."
+          ]
+        },
+        {
+          "title": "Cursos y Certificaciones",
+          "description": [
+            "Certificación CTFL - Certified Tester Foundation Level - BSTQB."
+          ]
         }
+      ],
+      "skills": {
+        "title": "Habilidades",
+        "skills": {
+          "languages": {
+            "title": "Lenguajes",
+            "items": {
+              "Java": "3 años",
+              "Typescript": "5 años",
+              "Python": "2 años"
+            }
+          },
+          "frameworks": {
+            "title": "Frameworks",
+            "items": {
+              "Cypress": "3 años",
+              "Selenium": "5 años",
+              "Cucumber": "9 años"
+            }
+          },
+          "tools": {
+            "title": "Herramientas",
+            "items": {
+              "Postman": "9 años",
+              "JMeter": "1 año"
+            }
+          },
+          "agile": {
+            "title": "Metodología Ágil",
+            "items": {
+              "Scrum/Kanban": "9 años"
+            }
+          }
+        }
+      },
+      "experiencies": {
+        "title": "Experiencias",
+        "items": [
+          {
+            "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
+            "company": "Capgemini - Lisboa - Portugal",
+            "startDate": "ENE/2023",
+            "endDate": "ACTUAL",
+            "duration": null,
+            "description": "Trabajo para Capgemini asignado al Instituto de Informática del Gobierno de Portugal. Trabajo en el sector de Impedimentos Temporales para el trabajo, haciendo automatización de pruebas con Java y un framework propio de la empresa basado en Selenium. Este proyecto está en marcha, ya que muchos tests no funcionaban. Mi entrada fue para actualizar las pruebas existentes y crear nuevas para las nuevas entregas. Trabajamos con Kanban. Siempre desarrollando pruebas con datos dinámicos de la base de datos Oracle, con consultas SQL. Escritura de escenarios con Gherkin, creando archivos de características."
+          },
+          {
+            "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
+            "company": "Dialog Tecnología de la Información",
+            "startDate": "ENE/2022",
+            "endDate": "ENE/2023",
+            "duration": "1 año y 1 mes",
+            "description": "Trabajé como contratista para iniciar un proyecto de automatización en la empresa. Producto de comunicación interna de RRHH, con publicaciones entre colaboradores, gestión, comunicados, etc. Comencé un proyecto desde cero de automatización con Cypress/JavaScript, desde la implementación del proyecto, la arquitectura de la automatización, configuración de los repositorios, etc. Responsable de todo el proceso de desarrollo de pruebas, desde la escritura de escenarios (Gherkin - BDD), documentación y automatización de estos escenarios. Si encuentro errores, se reportan en Monday.com. Esta automatización se inició en productos ya finalizados, implementándola gradualmente dentro de cada sprint, probando nuevos productos/features. Capacitación de otros miembros del equipo para la implementación de nuevos escenarios y pruebas en el proyecto de automatización. Aproximadamente 450,000 usuarios de la app/sistema."
+          },
+          {
+            "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
+            "company": "Assertiva Tecnología de la Información",
+            "startDate": "MAR/2020",
+            "endDate": "ENE/2022",
+            "duration": "1 año y 10 meses",
+            "description": "Responsable del equipo encargado de la calidad del producto desarrollado. Asegurando la cobertura máxima de pruebas funcionales y no funcionales, manuales y automatizadas, escribiendo los casos de prueba siguiendo el proceso BDD, pruebas de rendimiento, automatización de backend utilizando Python y Behave, y frontend utilizando Ruby y Capybara/Cucumber y Python/Behave con Selenium. Pruebas manuales de API Rest utilizando Postman, realizando solicitudes a los endpoints (proporcionados por los desarrolladores a través de Swagger), documentación de las pruebas y reporte de posibles errores en herramientas como Trello y/o Jira. Actualmente (a partir de DIC/20) considerado uno de los líderes de QA, responsable de la revisión del código de otros QA, aprobando o sugiriendo mejoras antes de hacer el merge en el proyecto principal. También responsable de la formación de nuevos QA que ingresaron a la empresa con menor experiencia y familiaridad con la automatización."
+          },
+          {
+            "title": "ANALISTA DE PRUEBAS AUTOMATIZADAS",
+            "company": "Cflex Computación Flexible y Rail MP",
+            "startDate": "SEP/2015",
+            "endDate": "FEB/2020",
+            "duration": "4 años y 5 meses",
+            "description": "Realizar pruebas de funcionalidad del software desarrollado por la empresa. Crear, escribir y ejecutar casos de prueba. Reportar errores encontrados en el sistema Atlassian JIRA. Revisar y opinar sobre historias de especificación técnica (User Stories) escritas por el Analista de Negocios. Elaborar y ejecutar casos de prueba que puedan generar fallos/errores en el sistema. Documentar los procesos de prueba y/o software desarrollado por la empresa."
+          }
+        ]
+      }
+    },
+    "footer": {
+      "develop": "Desarrollado por"
     }
-}
+  }
+  
