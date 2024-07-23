@@ -1,5 +1,5 @@
 import { useLanguage } from "../context/LanguageContext";
-import photo from "../img/photo-profile.jpg";
+import photo from "../assets/img/photo-profile.jpg";
 import "./style.css";
 
 export default function About() {
