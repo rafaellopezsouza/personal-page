@@ -4,6 +4,7 @@ import { FaEnvelope, FaLinkedin, FaGithub } from "react-icons/fa";
 
 import "./style.css";
 import { Card } from "../components/Card";
+import { DownloadResume } from "../components/DownloadResume";
 
 interface EducationProps {
     title: string;
@@ -33,6 +34,7 @@ export default function Resume() {
                     </li>
                     <li><FaGithub className="icon" /> <a className="contacts-link" href={data.githubLink} target="_blank">{data.githubLink}</a>
                     </li>
+                    <li><DownloadResume /></li>
                 </ul>
                 {translations.resume.education.map((item: EducationProps) => (
                     <section className="about-me">

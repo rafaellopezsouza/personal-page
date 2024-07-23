@@ -1,7 +1,7 @@
 import { useLanguage } from '../context/LanguageContext';
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import commun from "../data/commun.json"
-import photo from "../img/photo-profile.jpg";
+import photo from "../assets/img/photo-profile.jpg";
 import "./style.css";
 
 export default function Home() {

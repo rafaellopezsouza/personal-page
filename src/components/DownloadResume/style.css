@@ -1,0 +1,27 @@
+.download-button {
+    color: var(--cor-primaria);
+    font-size: 1.5rem;
+    background-color: #fff;
+    border: 2px solid var(--cor-primaria);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 50px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.download-button:hover {
+    background-color: black;
+    color: #fff;
+    transform: scale(1.05);
+    transition-duration: 0.3s;
+}
+
+.icon-download {
+    font-size: 1.5rem;
+}
