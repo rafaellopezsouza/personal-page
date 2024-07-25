@@ -15,7 +15,7 @@ jobs:
       - name: Use Node.js 20.x
         uses: actions/setup-node@v2
         with:
-          node-version: '20'
+          node-version: "20"
 
       - name: Install lftp
         run: sudo apt-get update && sudo apt-get install -y lftp
@@ -23,8 +23,27 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Build project
-        run: npm run build
-
       - name: Deploy via FTP
         run: lftp -e "set ftp:ssl-allow no; mirror -R ./dist/ /public_html; quit" -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ${{ secrets.FTP_SERVER }}
+
+      - name: Install wait-on
+        run: npm install -g wait-on
+
+      - name: Start project
+        run: npm run dev &
+
+      - name: Clone test Cypress repository
+        run: git clone https://github.com/rafaellopezsouza/portifolio-cypress-ts
+
+      - name: Install Cypress dependencies
+        run: |
+          cd portifolio-cypress-ts
+          npm install
+
+      - name: Run Cypress tests in dev environment
+        run: |
+          cd portifolio-cypress-ts
+          npm run dev:prd
+
+      - name: Build project
+        run: npm run build
