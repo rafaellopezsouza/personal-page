@@ -1,0 +1,45 @@
+.skills {
+    font-size: 1.1rem;
+    font-family: var(--font-secundaria);
+    padding: 3% 15% 0 15%;
+}
+
+.skills-cards {
+    display: flex;
+    gap: 25px;
+}
+
+.card {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-primaria);
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(252, 252, 252, 0.307);
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 15px;
+    width: 250px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: var(--cor-botao-hover);
+}
+
+.card h3 {
+    color: var(--cor-terciaria);
+    margin-bottom: 10px;
+    padding: 5px;
+    text-align: center;
+}
+
+ul {
+    margin-top: 10px;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skill-item {
+    margin: 5px;
+}

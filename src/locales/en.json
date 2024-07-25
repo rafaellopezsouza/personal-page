@@ -1,0 +1,114 @@
+{
+  "header": {
+    "home": "Home",
+    "aboutMe": "About Me",
+    "resume": "Resume"
+  },
+  "home": {
+    "title": "Welcome to my website!",
+    "subtitle": "I am an Automated Test Analyst.",
+    "paragraph": "Hello, I am Rafael, and it's a pleasure to welcome you to my web resume. Feel free to explore my skills and experiences. If you have any questions or need more information, I am available to help. Let's get started!",
+    "accessNetworks": "Access my networks"
+  },
+  "aboutMe": {
+    "title": "About Me",
+    "description": [
+      "I am Rafael, a Senior Quality Test Analyst. With over 10 years of experience, I specialize in functional testing, automation, and project management. Committed to excellence, I believe quality is the foundation of any successful project.",
+      "My professional journey has allowed me to work in a variety of sectors and challenging projects. This diversity has given me a much better understanding of software development and the ability to adapt to different scenarios with ease.",
+      "In addition to my work, I am a technology enthusiast who is always seeking continuous learning and knowledge sharing. I believe in collaboration as a catalyst for success, and I am committed to contributing to the growth of the quality testing community."
+    ]
+  },
+  "resume": {
+    "subtitle": "Senior Automated Test Analyst",
+    "buttonDownloadText": "Download in PDF",
+    "education": [
+      {
+        "title": "Education",
+        "description": [
+          "POST-GRADUATION: Software Engineering with emphasis on Quality and Software Testing.",
+          "BACHELOR'S DEGREE - Analysis and Systems Development."
+        ]
+      },
+      {
+        "title": "Courses and Certifications",
+        "description": [
+          "CTFL Certified Tester Foundation Level - BSTQB."
+        ]
+      }
+    ],
+    "skills": {
+      "title": "Skills",
+      "skills": {
+        "languages": {
+          "title": "Languages",
+          "items": {
+            "Java": "3 years",
+            "Typescript": "5 years",
+            "Python": "2 years"
+          }
+        },
+        "frameworks": {
+          "title": "Frameworks",
+          "items": {
+            "Cypress": "3 years",
+            "Selenium": "5 years",
+            "Cucumber": "9 years"
+          }
+        },
+        "tools": {
+          "title": "Tools",
+          "items": {
+            "Postman": "9 years",
+            "JMeter": "1 year"
+          }
+        },
+        "agile": {
+          "title": "Agile Methodology",
+          "items": {
+            "Scrum/Kanban": "9 years"
+          }
+        }
+      }
+    },
+    "experiencies": {
+      "title": "Experiences",
+      "items": [
+        {
+          "title": "AUTOMATED TEST ANALYST",
+          "company": "Capgemini - Lisbon - Portugal",
+          "startDate": "JAN/2023",
+          "endDate": "PRESENT",
+          "duration": null,
+          "description": "Working for Capgemini at the Institute of Informatics of the Portuguese Government. I work in the Temporary Impediments sector for work, automating tests with Java, and a company-specific framework based on Selenium. This project is ongoing, as many tests were not functioning. My role was to update existing tests and create new ones for new releases. We work with Kanban, always developing tests with dynamic data from the Oracle database, with SQL queries. Writing scenarios with Gherkin, creating feature files."
+        },
+        {
+          "title": "AUTOMATED TEST ANALYST",
+          "company": "Dialog Information Technology",
+          "startDate": "JAN/2022",
+          "endDate": "JAN/2023",
+          "duration": "1 year and 1 month",
+          "description": "Worked as a contractor to start an automation project in the company. Internal HR communication product, with posts between employees, management, notices, etc. Started a project from scratch for automation with Cypress/JavaScript, from project implementation, automation architecture, repository configuration, etc. Responsible for the entire process of test development, from writing scenarios (Gherkin - BDD), documentation, and automation of these scenarios. If bugs are found, they are reported in Monday.com. This automation was started in already completed products, gradually implemented within each sprint, testing new products/features. Training other team members for implementing new scenarios and tests in the automation project. About 450,000 users of the app/system."
+        },
+        {
+          "title": "AUTOMATED TEST ANALYST",
+          "company": "Assertiva Information Technology",
+          "startDate": "MAR/2020",
+          "endDate": "JAN/2022",
+          "duration": "1 year and 10 months",
+          "description": "Responsible for the squad overseeing the quality of the developed product. Ensuring maximum coverage of functional and non-functional tests, manual and automated, writing test cases following BDD process, performance testing, backend automation using Python and Behave, and frontend using Ruby and Capybara/Cucumber and Python/Behave with Selenium. Manual API Rest testing using Postman, making requests to endpoints (provided by devs via Swagger), test documentation, and reporting possible bugs in tools like Trello and/or Jira. Currently (since DEC/20) considered one of the QA leaders, responsible for code review of other QAs, approving or suggesting improvements before merging into the master project. Also responsible for training new QAs who joined the company with less seniority and familiarity with automation."
+        },
+        {
+          "title": "AUTOMATED TEST ANALYST",
+          "company": "Cflex Flexible Computing and Rail MP",
+          "startDate": "SEP/2015",
+          "endDate": "FEB/2020",
+          "duration": "4 years and 5 months",
+          "description": "Conduct functionality tests of the software developed by the company. Create, write, and execute test cases. Report bugs found in the Atlassian JIRA system. Review and provide feedback on technical specification stories (User Stories) written by the Business Analyst. Develop and execute test cases that might generate failures/bugs in the system. Document test processes and/or software developed by the company."
+        }
+      ]
+    }
+  },
+  "footer": {
+    "develop": "Developed by"
+  }
+}

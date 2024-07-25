@@ -1,21 +1,17 @@
-.cabecalho {
-
+.header {
     padding: 3% 0% 0% 0%;
-    display: flex;
-    justify-content:center;
-  
-    gap: 82px;
-
-}
-
-.cabecalho_menu {
-
     display: flex;
     justify-content: center;
     gap: 82px;
 }
 
-.cabecalho_menu_home {
+.header-nav {
+    display: flex;
+    justify-content: center;
+    gap: 82px;
+}
+
+.header-link {
     color: var(--cor-terciaria);
     font-family: var(--font-secundaria);
     font-size: 1.5rem;
