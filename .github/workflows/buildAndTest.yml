@@ -20,11 +20,14 @@ jobs:
       - name: Install dependencies
         run: npm install
 
+      - name: Install wait-on
+        run: npm install -g wait-on
+
       - name: Start project
         run: npm run dev &
-
+        
       - name: Wait for the server to be ready
-        run: wait-on http://localhost:3000/
+        run: wait-on http://localhost:3000
 
       - name: Clone test Cypress repository
         run: git clone https://github.com/rafaellopezsouza/portifolio-cypress-ts
