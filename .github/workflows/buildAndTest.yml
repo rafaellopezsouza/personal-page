@@ -21,14 +21,14 @@ jobs:
         run: npm install
 
       - name: Start project
-        run: npm run dev
+        run: npm run dev &
 
       - name: Clone test Cypress repository
         run: git clone https://github.com/rafaellopezsouza/portifolio-cypress-ts
 
       - name: Run tests
         run: |
-          cd test-repo
+          cd portifolio-cypress-ts
           npm install
-          npm test
+          npx cypress run
     
