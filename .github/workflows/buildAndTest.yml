@@ -21,14 +21,20 @@ jobs:
         run: npm install
 
       - name: Start project
-        run: npm run dev
+        run: npm run dev &
+
+      - name: Wait for the server to be ready
+        run: wait-on http://localhost:3000
 
       - name: Clone test Cypress repository
         run: git clone https://github.com/rafaellopezsouza/portifolio-cypress-ts
 
-      - name: Run tests
+      - name: Install Cypress dependencies
         run: |
-          cd test-repo
+          cd portifolio-cypress-ts
           npm install
-          npm test
-    
+
+      - name: Run Cypress tests in dev environment
+        run: |
+          cd portifolio-cypress-ts
+          npm run dev:cy
