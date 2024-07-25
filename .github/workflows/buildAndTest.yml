@@ -29,9 +29,12 @@ jobs:
       - name: Clone test Cypress repository
         run: git clone https://github.com/rafaellopezsouza/portifolio-cypress-ts
 
-      - name: Run tests
+      - name: Install Cypress dependencies
         run: |
           cd portifolio-cypress-ts
           npm install
-          npx cypress run
-    
+
+      - name: Run Cypress tests in dev environment
+        run: |
+          cd portifolio-cypress-ts
+          npm run dev:cy
