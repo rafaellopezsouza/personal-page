@@ -26,15 +26,27 @@ export default function Resume() {
     return (
         <main>
             <div>
-                <h1 className="name">  Rafael Lopes de Souza</h1>
+                <h1 className="name">Rafael Lopes de Souza</h1>
                 <h2 className="resume-subtitle">{translations.resume.subtitle}</h2>
                 <ul className="contacts">
-                    <li><FaEnvelope className="icon" /> {data.email}</li>
-                    <li><FaLinkedin className="icon" /> <a className="contacts-link" href={data.linkedinLink} target="_blank">{data.linkedinLink}</a>
+                    <li><FaEnvelope className="icon" />
+                        {data.email}
                     </li>
-                    <li><FaGithub className="icon" /> <a className="contacts-link" href={data.githubLink} target="_blank">{data.githubLink}</a>
+                    <li>
+                        <FaLinkedin className="icon" />
+                        <a className="contacts-link" href={data.linkedinLink} target="_blank">
+                            {data.linkedinLink}
+                        </a>
                     </li>
-                    <li><DownloadResume /></li>
+                    <li>
+                        <FaGithub className="icon" />
+                        <a className="contacts-link" href={data.githubLink} target="_blank">
+                            {data.githubLink}
+                        </a>
+                    </li>
+                    <li>
+                        <DownloadResume />
+                    </li>
                 </ul>
                 {translations.resume.education.map((item: EducationProps) => (
                     <section className="about-me">
