@@ -32,9 +32,6 @@ jobs:
       - name: Install wait-on
         run: npm install -g wait-on
 
-      - name: Start project
-        run: npm run dev &
-
       - name: Clone test Cypress repository
         run: git clone https://github.com/rafaellopezsouza/portifolio-cypress-ts
 
@@ -46,4 +43,4 @@ jobs:
       - name: Run Cypress tests in dev environment
         run: |
           cd portifolio-cypress-ts
-          npm run dev:prd
+          npm run cy:prd
